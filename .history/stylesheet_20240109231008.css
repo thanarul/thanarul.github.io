@@ -143,17 +143,17 @@ body
 
 .about{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: ;
 }
 
-/* .about {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 6rem;
-} */
+}
 
 
 

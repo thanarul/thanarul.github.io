@@ -141,19 +141,9 @@ body
     0 0 100px cyan, 0 0 200px cyan;
 }
 
-.about{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-/* .about {
+.about {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 6rem;
-} */
+}
 
 
 
