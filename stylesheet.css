@@ -87,7 +87,7 @@ body
 }
 
 .home-content h1 {
-    font-size: 56px;
+    font-size: 60px;
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
@@ -95,7 +95,7 @@ body
     animation-delay: 1s;
 }
 .home-content p {
-    font-size: 30px;
+    font-size: 32px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -125,10 +125,10 @@ body
 }
 .btn-box {
     display: inline-block;
-    padding: 16px 36px;
+    padding: 30px 60px;
     background: #0ef;
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 24px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
