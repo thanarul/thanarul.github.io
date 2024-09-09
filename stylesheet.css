@@ -52,7 +52,7 @@ body
 .home {
     position: relative;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 100ch;
     background-image: url('option2.jpeg');
     background-attachment: fixed;
@@ -105,12 +105,15 @@ body
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: 1s;
+    color: rgb(255, 255, 255);
+    
 }
 .home1 {
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100%;
+    background-color: rgb(224, 223, 223);
     background-image: url('option2.jpeg');
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -131,11 +134,14 @@ body
     border: #081b29 4px solid;
 }
 .home-content1 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 45px;
+    color: white;
 }
 .home-content1 p {
     font-size: 25px;
+    color: white;
+    
     /* opacity: 0; */
 }
 .home-content p {
@@ -143,6 +149,27 @@ body
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+}
+.home-content1 p {
+    font-size: 30px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-content1 ol {
+    font-size: 30px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    color: white;
+}
+.home-content1 li {
+    font-size: 30px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    color: white;
 }
 .home-sci a {
     display: inline-flex;
@@ -190,10 +217,10 @@ body
     0 0 100px cyan, 0 0 200px cyan;
 }
 
-.about{
+/* .about{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
+} */
 
 /* .about {
     display: flex;
