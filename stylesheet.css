@@ -7,7 +7,7 @@
 }
 body 
 {
-    color: #ededed
+    color: white
 }
 .header
 {
@@ -102,21 +102,21 @@ body
     font-weight: 700;
     margin: -3px 0;
     padding-top: 150px;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 1s;
-    color: rgb(255, 255, 255);
-    
+    opacity: 1;
+    /* animation: slideBottom 1s ease forwards;
+    animation-delay: 1s; */
+    color: #081b29;    
 }
 .home1 {
     position: relative;
+    padding: 10px 10%;
     width: 100%;
     justify-content: space-between;
     height: 100%;
-    background-color: rgb(224, 223, 223);
-    background-image: url('option2.jpeg');
+    background-color: white;
+    /* background-image: url('option2.jpeg');
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
     background-position: center;
     display: flex;
     align-items: center;
@@ -129,18 +129,50 @@ body
 
 
 .home-content1 img {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
     border: #081b29 4px solid;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+.responsive-img {
+    width: 600px; /* Ensures it doesn't exceed the width of its container */
+    height: auto;    /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.image-caption {
+    text-align: center; /* Centers the caption and image */
+    margin: 20px 0; /* Adds spacing around the image */
+}
+
+.image-caption img {
+    width: 500px; /* Shrinks the image to the desired size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
+
+.image-caption figcaption {
+    font-size: 16px;
+    color: #555; /* Subtle caption color */
+    margin-top: 10px;
+    font-style: italic; /* Makes the caption italic for emphasis */
+}
+
+
 .home-content1 h2 {
     text-align: center;
     font-size: 45px;
-    color: white;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
 }
 .home-content1 p {
     font-size: 25px;
-    color: white;
+    color: black;
+    opacity: 1;
+    padding-left: 100px;
+    padding-right: 100px;
     
     /* opacity: 0; */
 }
@@ -152,24 +184,34 @@ body
 }
 .home-content1 p {
     font-size: 30px;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
+    opacity: 1;
+    /* animation: slideLeft 1s ease forwards;
+    animation-delay: 1s; */
+    text-align: start;
 }
 
 .home-content1 ol {
     font-size: 30px;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
-    color: white;
+    opacity: 1;
+    list-style-type: decimal;
+    /* animation: slideLeft 1s ease forwards;
+    animation-delay: 1s; */
+    color: black;
+    text-align: start;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 100px;
+    padding-bottom: 30px;
 }
 .home-content1 li {
     font-size: 30px;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
-    color: white;
+    opacity: 1;
+    /* animation: slideLeft 1s ease forwards;
+    animation-delay: 1s; */
+    color: black;
+    text-align: start;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .home-sci a {
     display: inline-flex;
@@ -215,6 +257,22 @@ body
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
+}
+
+.navbar1 a {
+    display: inline-block;
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.navbar1 a:hover {
+    color: #0ef;
 }
 
 /* .about{
