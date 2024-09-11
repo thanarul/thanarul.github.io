@@ -101,7 +101,7 @@ body
     font-size: 55px;
     font-weight: 700;
     margin: -3px 0;
-    padding-top: 150px;
+    padding-top: 110px;
     opacity: 1;
     /* animation: slideBottom 1s ease forwards;
     animation-delay: 1s; */
@@ -130,7 +130,7 @@ body
 
 .home-content1 img {
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border: #081b29 4px solid;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
@@ -141,40 +141,32 @@ body
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
 }
 
-.image-caption {
-    text-align: center; /* Centers the caption and image */
-    margin: 20px 0; /* Adds spacing around the image */
-}
-
-.image-caption img {
-    width: 500px; /* Shrinks the image to the desired size */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
-}
-
-.image-caption figcaption {
-    font-size: 16px;
-    color: #555; /* Subtle caption color */
-    margin-top: 10px;
-    font-style: italic; /* Makes the caption italic for emphasis */
-}
-
 
 .home-content1 h2 {
-    text-align: center;
+    text-align: start;
     font-size: 45px;
     color: rgb(0, 0, 0);
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .home-content1 p {
-    font-size: 25px;
+    font-size: 24px;
     color: black;
     opacity: 1;
-    padding-left: 100px;
+    font-weight: 10;
+    /* padding-left: 25px; */
     padding-right: 100px;
+    opacity: 1;
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
     /* opacity: 0; */
+}
+.home-content1 h3 {
+    font-size: 15px;
+    color: black;
+    opacity: 1;
+    margin-bottom: 20px;
 }
 .home-content p {
     font-size: 30px;
@@ -182,32 +174,26 @@ body
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
-.home-content1 p {
-    font-size: 30px;
-    opacity: 1;
-    /* animation: slideLeft 1s ease forwards;
-    animation-delay: 1s; */
-    text-align: start;
-}
 
 .home-content1 ol {
-    font-size: 30px;
+    font-size: 24px;
     opacity: 1;
     list-style-type: decimal;
-    /* animation: slideLeft 1s ease forwards;
-    animation-delay: 1s; */
+    font-weight: 10;
     color: black;
     text-align: start;
     padding-top: 30px;
-    padding-left: 130px;
+    padding-left: 75px;
     padding-right: 100px;
     padding-bottom: 30px;
 }
+.home-content1 ul {
+    padding-left: 75px;
+}
 .home-content1 li {
-    font-size: 30px;
+    font-size: 24px;
     opacity: 1;
-    /* animation: slideLeft 1s ease forwards;
-    animation-delay: 1s; */
+    font-weight: 10;
     color: black;
     text-align: start;
     padding-left: 100px;
