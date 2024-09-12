@@ -7,7 +7,7 @@
 
 body {
     font-size: 1rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* Header */
@@ -54,6 +54,25 @@ body {
     color: #0ef;
 }
 
+/* Navbar */
+.navbar1 a {
+    display: inline-block;
+    font-size: 1.2rem; /* Scaled down for better readability */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    opacity: 0;
+    animation: slideTop 0.5s ease forwards;
+    animation-delay: calc(0.2s * var(--i));
+}
+
+.navbar1 a:hover {
+    color: #0ef;
+}
+
+
 /* Main content */
 .home {
     position: relative;
@@ -79,6 +98,10 @@ body {
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: 0.7s;
+}
+
+.home-content h3 span {
+    color: #0ef;
 }
 
 .home-content h1 {
@@ -115,7 +138,7 @@ body {
     font-size: 2.5rem; /* Responsive heading size */
     font-weight: 700;
     margin: -3px 0;
-    padding-top: 110px;
+    padding-top: 60px;
     color: #081b29;
 }
 
