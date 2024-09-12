@@ -138,6 +138,11 @@ body {
     text-decoration-color: rgb(0, 0, 0);
 }
 
+.red {
+    color: #B10316;
+ }
+ 
+
 /* Text Content */
 .home-content1 h2 {
     text-align: start;
@@ -148,7 +153,7 @@ body {
 }
 
 .home-content1 p {
-    font-size: 1.2rem; /* Adjust for readability */
+    font-size: 1.4rem; /* Adjust for readability */
     color: black;
     text-align: start;
     margin-bottom: 10px;
@@ -157,7 +162,7 @@ body {
 
 .home-content1 ol,
 .home-content1 ul {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: start;
     margin: 20px;
     padding-left: 40px;
@@ -165,6 +170,7 @@ body {
 
 .home-content1 li {
     padding-bottom: 10px;
+    color: black;
 }
 
 /* Social Media Links */
@@ -191,6 +197,10 @@ body {
     background: #0ef;
     color: #081b29;
     box-shadow: 0 0 20px #0ef;
+}
+
+.home-content1 h3 {
+    color: black;
 }
 
 /* Button */
@@ -288,5 +298,27 @@ body {
 
     .btn-box {
         padding: 10px 20px;
+    }
+}
+/* Responsive Images */
+.responsive-img {
+    width: 100%; /* Full width on smaller screens */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* For larger screens */
+@media (min-width: 768px) {
+    .responsive-img {
+        width: 70%; /* Reduce width to 70% for tablets and above */
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-img {
+        width: 50%; /* Further reduce image size to 50% for larger screens */
+        height: auto;
     }
 }
