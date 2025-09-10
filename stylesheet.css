@@ -365,3 +365,5 @@ body {
         height: auto;
     }
 }
+html { font-size: 16px; }   /* set a known root */
+body { font-size: 1rem; }   /* equals 16px now */
