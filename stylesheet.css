@@ -156,6 +156,12 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
+.responsive-img2 {
+    width: 50%; /* Adjust to 100% width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
 .underline {
     text-decoration: underline;
     text-decoration-color: rgb(0, 0, 0);
