@@ -1,44 +1,115 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta http-equiv="X-UA Compatible" content = "IE=edge">
-        <meta name = "viewport" content="width=device-width,inital-scale-1.0">
-        <title>Portfolio</title>
-        <link rel ="stylesheet" href = "stylesheet.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel ='stylesheet'>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    </head>
-    <body>
-        <header class = "header">
-            <a href= "#" class = "logo"></a>
-            <nav class = "navbar">
-                <a href = "index.html" style="--i:1"class="active">Home</a>
-                <a href = "resume.html" style="--i:2">Resume</a>
-                <a href = "Workterm.html" style="--i:3">WTR (S24)</a>
-                <a href = "WorktermF24.html" style="--i:3">WTR (F24)</a>
-                <a href = "WorktermS25.html" style ="--i:4">WTR (S25)</a>
-                <a href = "Aboutme.html" style="--i:5">About me</a>
-            </nav>
-        </header>
-        <section class ="home">
-            <div class ="home-content">
-                <!-- <h1> Hello, It's Me</h1> -->
-                <h1> Thanush Arulanantham</h1>
-                <h3><span class ="text"></span></h3>
-                    <p>studying Computer Science at the University Of Guelph. </p>
-                <div class = "home-sci">
-                    <a href = "https://www.linkedin.com/in/thanarul/" style="--i:6"><i class='bx bxl-linkedin' ></i></a>
-                    <a href = "https://github.com/thanarul" style="--i:7"><i class='bx bxl-github' ></i></a>
-                    <!-- <a href = "#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
-                    <a href = "#" style="--i:9"><i class='bx bxl-whatsapp' ></i></a> -->
-                    </div>
-                    <a href="#" class ="btn-box">More About Me</a>
-                </div>
-            </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="index.html" style="--i:1" class="active">Home</a>
+        <a href="resume.html" style="--i:2">Resume</a>
+        <a href="Workterm.html" style="--i:3">WTR (S24)</a>
+        <a href="WorktermF24.html" style="--i:3">WTR (F24)</a>
+        <a href="WorktermS25.html" style="--i:4">WTR (S25)</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h1>Thanush Arulanantham</h1>
+        <h3><span class="text"></span></h3>
+        <p>Studying Computer Science at the University Of Guelph.</p>
+
+        <div class="home-sci">
+          <a href="https://www.linkedin.com/in/thanarul/" style="--i:6"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/thanarul" style="--i:7"><i class='bx bxl-github'></i></a>
         </div>
-        <span class = "home-imgHover"></span>
-        </section>
-        <script src="main.js"></script>
-    </body>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="exp-title">Work Experience</h2>
+
+   <div class="exp-list">
+  <!-- Duplicate this card for more roles -->
+  <article class="exp-card">
+    <div class="exp-left">
+      <!-- Logo area -->
+      <img src="CIBCLOGO.png" alt="CIBC Logo" class="exp-logo" />
+      
+      <div>
+        <h3 class="exp-company">CIBC</h3>
+        <p class="exp-role">Business Systems Analyst</p>
+        <p class="exp-sub">💻 Service Request Management & Application Security</p>
+      </div>
+    </div>
+    <div class="exp-right">
+      <span class="exp-dates">May - August 2025</span>
+    </div>
+  </article>
+</div>
+
+<article class="exp-card">
+    <div class="exp-left">
+      <!-- Logo area -->
+      <img src="CIBCLOGO.png" alt="CIBC Logo" class="exp-logo" />
+      
+      <div>
+        <h3 class="exp-company">CIBC Capital Markets</h3>
+        <p class="exp-role">Technical Systems Analyst </p>
+        <p class="exp-sub">📈 Market Data</p>
+      </div>
+    </div>
+    <div class="exp-right">
+      <span class="exp-dates">May - December 2024</span>
+    </div>
+  </article>
+</div>
+
+<article class="exp-card">
+    <div class="exp-left">
+      <!-- Logo area -->
+      <img src="Guelph.jpeg" alt="CIBC Logo" class="exp-logo" />
+      
+      <div>
+        <h3 class="exp-company">University of Guelph</h3>
+        <p class="exp-role">Residence Assistant</p>
+        <p class="exp-sub">🏘️ Mountain Hall</p>
+      </div>
+    </div>
+    <div class="exp-right">
+      <span class="exp-dates">August 2023 - April 2024</span>
+    </div>
+  </article>
+</div>
+
+<article class="exp-card">
+    <div class="exp-left">
+      <!-- Logo area -->
+      <img src="L&M Taylor.jpeg" alt="CIBC Logo" class="exp-logo" />
+      
+      <div>
+        <h3 class="exp-company">L&M Taylor Soccer</h3>
+        <p class="exp-role">Sales Associate</p>
+        <p class="exp-sub">👟 Customer-Focused</p>
+      </div>
+    </div>
+    <div class="exp-right">
+      <span class="exp-dates">August 2023 - April 2024</span>
+    </div>
+  </article>
+</div>
+
+
+
+    <script src="main.js"></script>
+  </body>
 </html>
